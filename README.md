@@ -20,6 +20,7 @@ nodemon app.js / node app.js / npm start: to run the webapp locally.
 Frontend : EJS, CSS, BootStrap, Javascript   
 Backend : NodeJS, ExpressJS  
 Database : Atlas MongoDB
+RealtimeTracking: websockets (socket.io)
 
 ### Dependencies & APIs used:
 @mapbox/mapbox-sdk : api used for requesting and tracking order using maps.      
@@ -39,8 +40,19 @@ joi : for schema validation.
 passport : used to hash our passsword and authenticate our user.(Security Purposes)
 
 passport-local-mongoose : to connect passport with mongodb
+
+socket.io : used for communication using websockets to track drone locations in realtime
     
 Note : remaining all dependencies are basic and henceforth not mentioned above.
+
+### socket connections for realtime communication -
+<p align="center">
+<img src="./droneTracking.png"
+  alt="droneTracking"
+  width="720" height="430" style="border-style: solid">
+</p>
+<br/>
+
 ## Authors
 
 - [Yash Dewangan](https://github.com/yashpd6634/)
